@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  healthchecks.somemodelservice:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 54411:80
